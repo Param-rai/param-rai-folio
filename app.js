@@ -4,12 +4,22 @@ const secBtn = document.querySelectorAll(".control");
 const allSections = document.querySelector(".main-content");
 const portfolioContainer = document.querySelector(".portfolios");
 
-const portfolio = [
-  { title: "Codex-CodingAi", img: "img/codex.png", github: "/", demo: "/" },
-  { title: "prmMovies", img: "img/prmMovies.png", github: "/", demo: "/" },
+const portfolios = [
+  {
+    title: "Codex-CodingAi",
+    img: "img/codex.png",
+    github: "https://github.com/Param-rai/coding-ai",
+    demo: "https://coding-ai-ten.vercel.app/",
+  },
+  {
+    title: "prmMovies",
+    img: "img/prmMovies.png",
+    github: "https://github.com/Param-rai/prmMovies",
+    demo: "https://prm-movies.vercel.app/",
+  },
 ];
 
-portfolio.forEach((portfolio, i) => {
+portfolios.forEach((portfolio, i) => {
   let element = document.createElement("div");
   element.className = "portfolio-item";
   element.innerHTML = `
