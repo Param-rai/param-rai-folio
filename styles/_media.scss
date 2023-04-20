@@ -1,0 +1,32 @@
+@mixin lgMobile{
+    @media screen and (min-width:400px) {
+        @content;
+    }    
+}   
+
+@mixin tablet{
+    @media screen and (min-width:760px) {
+        @content;
+    }
+}
+
+
+@mixin smLaptop{
+    @media screen and (min-width:900px) {
+        @content;
+    }    
+}    
+
+
+@mixin mdLaptop{
+    @media screen and (min-width:1400px) {
+        @content;
+    }    
+}    
+
+
+@mixin lgLaptop{
+    @media screen and (min-width:2400px) {
+        @content;
+    }    
+}    
