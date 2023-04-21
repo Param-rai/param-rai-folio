@@ -945,6 +945,11 @@ padding-bottom: 7rem;
         .submit-btn{
             display: flex;
             justify-content: flex-start;
+            
+            .main-btn{
+                background: none;
+                cursor: pointer;
+            }
         }
     }
 
@@ -1020,6 +1025,7 @@ padding-bottom: 7rem;
         }
     }
 }
+
 
 .main-title{
     text-align: center;

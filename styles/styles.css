@@ -852,6 +852,10 @@ header {
   display: flex;
   justify-content: flex-start;
 }
+.contact-content-container .right-content .submit-btn .main-btn {
+  background: none;
+  cursor: pointer;
+}
 
 .stat-title {
   text-transform: uppercase;
