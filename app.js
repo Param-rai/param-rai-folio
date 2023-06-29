@@ -6,10 +6,10 @@ const portfolioContainer = document.querySelector(".portfolios");
 
 const portfolios = [
   {
-    title: "Codex-CodingAi",
-    img: "img/codex.png",
-    github: "https://github.com/Param-rai/coding-ai",
-    demo: "https://coding-ai-ten.vercel.app/",
+    title: "Mappin",
+    img: "img/mappin.png",
+    github: "https://github.com/Param-rai/Mappin",
+    demo: "https://mappin-pi.vercel.app/",
   },
   {
     title: "prmMovies",

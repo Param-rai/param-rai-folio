@@ -853,6 +853,10 @@ padding-bottom: 7rem;
                 margin: 0;
                 text-align: center;
                 
+            @media screen and (max-width:422px) {
+                justify-content: center;
+            }
+
                 p{
                     margin: 1.3rem 0 ;
                     padding: 0;
