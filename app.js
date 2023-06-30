@@ -6,6 +6,12 @@ const portfolioContainer = document.querySelector(".portfolios");
 
 const portfolios = [
   {
+    title: "Instagram replica",
+    img: "img/instagram.png",
+    github: "https://github.com/Param-rai/Instagram",
+    demo: "https://instagram-two-beta.vercel.app/",
+  },
+  {
     title: "Mappin",
     img: "img/mappin.png",
     github: "https://github.com/Param-rai/Mappin",
